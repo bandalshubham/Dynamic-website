@@ -46,19 +46,18 @@ const Navbar = () => {
                     Contact
                   </NavLink>
                 </li>
-              </ul>
-              <form class="d-flex">
-                <button class="btn  btn-style" type="submit">
-                <NavLink to="/login">
-                  Sign Up
+                <li>
+                <NavLink to="/login" className="nav-link">
+                  Login
                   </NavLink>
-                </button>
-                <button class="btn  btn-style btn-style-border" type="submit">
-                <NavLink to="/register">
-                  Log in
+                </li>
+                <li>
+                <NavLink to="/register" className="nav-link">
+                  Register
                   </NavLink>
-                </button>
-              </form>
+                </li>
+                </ul>
+              
             </div>
           </div>
         </nav>
