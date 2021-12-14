@@ -178,7 +178,7 @@ const Contact = () => {
 
                     <button
                       type="submit"
-                      className="btn btn-style w-100"
+                      className="btn btn-style"
                       onClick={submitData}>
                       Submit
                     </button>
