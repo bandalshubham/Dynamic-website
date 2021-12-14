@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import "./index.css";
 
 
 const Navbar = () => {
@@ -47,12 +48,12 @@ const Navbar = () => {
                   </NavLink>
                 </li>
                 <li>
-                <NavLink to="/login" className="nav-link">
+                <NavLink to="/login" className="nav">
                   Login
                   </NavLink>
                 </li>
                 <li>
-                <NavLink to="/register" className="nav-link">
+                <NavLink to="/register" className="nav">
                   Register
                   </NavLink>
                 </li>
